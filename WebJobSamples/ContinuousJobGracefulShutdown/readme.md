@@ -1,0 +1,1 @@
+﻿This sample demonstrates how to perform graceful shutdown in your job functions.
