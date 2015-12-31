@@ -11,11 +11,16 @@ In this sample, we demonstrate increasing the graceful shutdown timeout from the
 * You can test this by deploying the sample to Azure, and stopping your job in the portal UI (right click on your job in the UI and choose "Stop"
 * As you can see from the output below, the function receives the cancellation notification and is given time to clean up
 
-
 [12/31/2015 17:15:08 > 951460: SYS INFO] Status changed to Stopping
+
 [12/31/2015 17:15:09 > 951460: INFO] Function has been cancelled. Performing cleanup ...
+
 [12/31/2015 17:15:39 > 951460: INFO] Function was cancelled and has terminated gracefully.
+
 [12/31/2015 17:15:39 > 951460: INFO] Function completed succesfully.
+
 [12/31/2015 17:15:39 > 951460: INFO] Job host stopped
+
 [12/31/2015 17:15:39 > 951460: SYS INFO] Status changed to Success
+
 [12/31/2015 17:15:39 > 951460: SYS INFO] Status changed to Stopped
